@@ -1,0 +1,51 @@
+/* --- Main Left Side --- */
+.main-left .sidebar{
+  margin-top: 1rem;
+}
+
+.main-left .sidebar .profile {
+  background: var(--left-profile-background-color);
+  border-radius: var(--left-profile-radius);
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: var(--left-profile-padding);
+  gap: 1rem;
+}
+
+.main-left .sidebar .menu {
+  margin-top: 1rem;
+  background: var(--left-profile-background-color);
+  border-radius: var(--left-profile-radius);
+}
+
+.main-left .sidebar .menu-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  cursor: pointer;
+  transition: all 300ms ease;
+  gap:1.5rem;
+}
+
+.main-left .sidebar .menu-item:hover {
+  background: var(--color-white);
+}
+
+.main-left .sidebar .menu-item i {
+  position:relative;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+
+.main-left .sidebar .createPost {
+  width: 100%;
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+
+.createPost .btn {
+  width: 100%;
+  text-align: center;
+}
